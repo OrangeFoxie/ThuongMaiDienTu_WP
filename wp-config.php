@@ -20,7 +20,7 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'db_thuongmaidientu' );
+define( 'DB_NAME', 'db_tmdt' );
 
 /** Username của database */
 define( 'DB_USER', 'root' );
@@ -48,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '<J(b=N;Rl,2l[Ir:m>g&8&=.4v$lI38Wp([jaWHo<Vf8j8A8Zw[JV_tawwS]1P[H' );
-define( 'SECURE_AUTH_KEY',  '?EGRN=FZz:9 ?@qg<(H9e&jU2@Enca#t3{j5]PNQ|lk`f!sR&n<F^Dw:nIZW!eI-' );
-define( 'LOGGED_IN_KEY',    '$I>;f.i96+*JEc]{a3|,N8LBAvCG`vgpsbmL*J<,21iV4qrYs,W*M0$#p+!I&F{4' );
-define( 'NONCE_KEY',        'Do,DH{?z/-[xHqH#O`9zU}HU5>id!m2_85T,P@RI`uBrV84=QpI+1fLcdx0~/Qh@' );
-define( 'AUTH_SALT',        'YZH@Z2+F3;v9^M|L>-cQS+Ly?X<8ayK*NE6SEI#hD0CY/rs}^j<L@ TS6~9L4!q!' );
-define( 'SECURE_AUTH_SALT', 'B }Z3}}Adm(&e#qhg4,tCe:$Z,(Z6L>q(9nD0S|>-SFHHT-{I;l~,0%=8UzwT%e%' );
-define( 'LOGGED_IN_SALT',   'V6#Phe1qr_ao_jY#OUv8a0,pQxU|3bQ>.Knftl,i{0xcyJ5RwPt7Qj6-=NDc!B2{' );
-define( 'NONCE_SALT',       'z3[Q<Te?2Py}zAo_>A.rG6OvK7~ki<vbhIpp*yeB&lbtG93LJz4qLIzAY@]`,aQ8' );
+define( 'AUTH_KEY',         'aM(XJK^aG-s?Osic?f;S?neYCV)7!x5L1,M,_t4Hvy]l4pVUn4P:4Km?Fq Ex_mb' );
+define( 'SECURE_AUTH_KEY',  'hGQN,F;PN6*Znkp2|XwmU~R2&PS*L9&[4pR0ZOo,4Nb?QYR2Tbc85v0:%B-m6psd' );
+define( 'LOGGED_IN_KEY',    ';i({zJj|/e! i7*rg]:N^KYZcPBAei~VE#7u>*%DQ!$><_cC; 8L 2{!m;kcH_6E' );
+define( 'NONCE_KEY',        ',pfPzUH}6vq%pfy$|&xbLmC(6d8EF.:ve8Vp@5J7BNT=bwG+C@L/0LzaOmZHyUi`' );
+define( 'AUTH_SALT',        ',0Insw2iM#hl_QX>Us2=&R+oy%OF2g2&=urM|;3IDItAZ#H%EiF4vLLqf;ciCKxu' );
+define( 'SECURE_AUTH_SALT', '6Yl~ N#n$qlx39.X=v)Fxpk=Z`BsbKt^<2+COZSb[0N_P[:I(EJEw07h###Q.pLE' );
+define( 'LOGGED_IN_SALT',   '&Ad^7}?ZT]jBfy7w=ZF{Z);>9mkh!W5j0ecJzrO:X-lT!Uew@h2|yHU$BsZAvyjI' );
+define( 'NONCE_SALT',       'NPex.(OUk:S|qZ[^i=PVE:AgcW{/|(D!r:lXNx]>^#~>/Y|%5)Yp`fM=[gH*,?R5' );
 
 /**#@-*/
 
@@ -65,7 +65,7 @@ define( 'NONCE_SALT',       'z3[Q<Te?2Py}zAo_>A.rG6OvK7~ki<vbhIpp*yeB&lbtG93LJz4
  * Đặt tiền tố cho bảng giúp bạn có thể cài nhiều site WordPress vào cùng một database.
  * Chỉ sử dụng số, ký tự và dấu gạch dưới!
  */
-$table_prefix = 'db_';
+$table_prefix = 'tb_';
 
 /**
  * Dành cho developer: Chế độ debug.
