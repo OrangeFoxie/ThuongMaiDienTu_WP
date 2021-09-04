@@ -47,7 +47,6 @@
 
 
 ----------
-
-<h5 style="text-align:center;">ʕ ᵔᴥᵔ ʔ CHÚC CÁC BẠN VUI VẺ ʕ ᵔᴥᵔ ʔ</h5>
+##### ʕ ᵔᴥᵔ ʔ CHÚC CÁC BẠN VUI VẺ ʕ ᵔᴥᵔ ʔ
 
 ----------
