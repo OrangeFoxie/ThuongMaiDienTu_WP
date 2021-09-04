@@ -17,6 +17,7 @@
    2. Thanh toán qua app momo
 3. Cho phép tải sách Ebook nếu mua sách online
 4. Cũng có thể lựa chọn giao sách tại nhà
+5. Có gắn thẻ `Google analytics`,`Google search console`, `Google tag manager` trong `Header` của trang web đồ án. Kiểm tra bằng plugin `Google Tag Assistant Legacy` của `Google Chrome`
 
 
 ## 3. Hình ảnh demo trang web:
