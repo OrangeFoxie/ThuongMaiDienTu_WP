@@ -1,0 +1,126 @@
+2021-08-20T11:44:28+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
+2021-08-20T11:45:05+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
+2021-08-20T11:45:10+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
+2021-08-20T11:45:40+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
+2021-08-20T11:48:06+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
+2021-08-20T11:50:08+00:00 CRITICAL Uncaught Error: Call to undefined function ImageCreate() in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php:74
+Stack trace:
+#0 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php(32): QRimage::image(Array, 10, 4)
+#1 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(494): QRimage::png(Array, false, 10, 4, false)
+#2 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrencode.php(286): QRencode->encodePNG('2|99|0325893888...', false, false)
+#3 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\class-mc-quetma-public.php(146): QRcode::png('2|99|0325893888...', false, 2, 10)
+#4 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(1139): Mc_Quetma_Public->show_qr(Object(WP_REST_Request))
+#5 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/plugin-quet-ma...', Array, NULL)
+#6 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/plugin-quet-ma...')
+#8 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#9 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#11 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#12 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\class-wp.php(750): WP->parse_request('')
+#13 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-includes\functions.php(1291): WP->main('')
+#14 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-blog-header.php(16): wp()
+#15 D:\XAMPP\htdocs\ThuongMaiDienTu_WP\index.php(17): require('D:\\XAMPP\\htdocs...')
+#16 {main}
+  thrown in D:\XAMPP\htdocs\ThuongMaiDienTu_WP\wp-content\plugins\thanh-toan-quet-ma-qr-momozalo-paymoca-grab-airpay\public\includes\phpqrcode\qrimage.php on line 74
+
