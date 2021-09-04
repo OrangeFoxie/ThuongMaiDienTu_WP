@@ -12,14 +12,15 @@
 
 ## 2. Chức năng chính của đồ án:
 1. Quản lí bán hàng bằng `WooCommerce`
-2. Đăng nhập bằng tài khoản **Google**
-3. Thanh toán bằng:
+2. Xây dựng website `WordPress` bằng công cụ page builder `Elementor`
+3. Đăng nhập bằng tài khoản **Google**
+4. Thanh toán bằng:
    1. Chuyển khoản qua ngân hàng truyền thống
    2. Thanh toán qua app momo
-4. Áp dụng mã giảm giá trong thanh toán
-5. Cho phép tải sách Ebook nếu mua sách online
-6. Cũng có thể lựa chọn giao sách tại nhà
-7. Có gắn thẻ `Google analytics`, `Google search console`, `Google tag manager` trong `Header` của trang web đồ án. Kiểm tra bằng plugin `Google Tag Assistant Legacy` của `Google Chrome`
+5. Áp dụng mã giảm giá trong thanh toán
+6. Cho phép tải sách Ebook nếu mua sách online
+7. Cũng có thể lựa chọn giao sách tại nhà
+8. Có gắn thẻ `Google analytics`, `Google search console`, `Google tag manager` trong `Header` của trang web đồ án. Kiểm tra bằng plugin `Google Tag Assistant Legacy` của `Google Chrome`
 
 
 ## 3. Hình ảnh demo trang web:
