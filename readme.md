@@ -8,7 +8,7 @@
 `Link này demo free nên nó có thể die bất cứ lúc nào`
 5. Cách upload host: [Youtube tutorial in VietNamese](https://youtu.be/9tG3CUERl_Y)
 6. Có 2 file ngoài ko liên quan là 1 file `readme.md` với folder `ReadMepics` là để làm cái note giới thiệu trên `Github` này. Bạn có thể xoá nó khi tải về.
-7. Tài khoản `wp-admin` thì bạn [inbox mình]([https://link](https://www.facebook.com/hitoshi.itamino/)) để biết nha ʕ ᵔᴥᵔ ʔ
+7. Tài khoản `wp-admin` với `bản báo cáo word` thì bạn [inbox mình]([https://link](https://www.facebook.com/hitoshi.itamino/)) để biết nha ʕ ᵔᴥᵔ ʔ
 
 ## 2. Chức năng chính của đồ án:
 1. Đăng nhập bằng tài khoản **Google**
