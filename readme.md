@@ -1,7 +1,7 @@
 # ĐỒ ÁN THƯƠNG MẠI ĐIỆN TỬ - WORDPRESS
 
 ## 1. Trong Git này gồm: 
-1. Toàn bộ thư mục của `htdocs` // chứa code của trang WordPress
+1. Toàn bộ thư mục của `htdocs` // chứa code của trang WordPress đồ án `Lovely pages - Trang sách yêu thương`
 2. 1 File rar `ThuongMaiDienTu_WP` là bản rút gọn cho việc upload host. Bạn lấy file này up lên host luôn cho tiện, mình làm sẵn rồi đó ʕ ᵔᴥᵔ ʔ
 3. File Database MySQL `epiz_29466718_lovelypages.sql`
 4. Demo page: [Lovely pages - Trang sách yêu thương](http://lovelypages.lovestoblog.com/) 
