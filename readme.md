@@ -14,6 +14,8 @@
 
 ![Trang chủ](./ReadMepics/TrangChu.JPG)
 2. Trang sản phẩm
+
+![Trang sản phẩm](ReadMepics\SanPham.JPG)
 3. Trang chi tiết sản phẩm
 4. Trang giới thiệu
 5. Trang liên hệ
