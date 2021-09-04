@@ -1,7 +1,7 @@
 # ĐỒ ÁN THƯƠNG MẠI ĐIỆN TỬ - WORDPRESS
 
 ## 1. Trong Git này gồm: 
-1. Toàn bộ thư mục của htdocs // chứa code của trang WordPress
+1. Toàn bộ thư mục của `htdocs` // chứa code của trang WordPress
 2. 1 File rar `ThuongMaiDienTu_WP` là bản rút gọn cho việc upload host. Bạn lấy file này up lên host luôn cho tiện, mình làm sẵn rồi đó ʕ ᵔᴥᵔ ʔ
 3. File Database MySQL `epiz_29466718_lovelypages.sql`
 4. Demo page: [Lovely pages - Trang sách yêu thương](http://lovelypages.lovestoblog.com/) 
@@ -11,13 +11,15 @@
 7. Tài khoản `wp-admin` với `bản báo cáo word` thì bạn [inbox mình]([https://link](https://www.facebook.com/hitoshi.itamino/)) để biết nha ʕ ᵔᴥᵔ ʔ
 
 ## 2. Chức năng chính của đồ án:
-1. Đăng nhập bằng tài khoản **Google**
-2. Thanh toán bằng:
+1. Quản lí bán hàng bằng `WooCommerce`
+2. Đăng nhập bằng tài khoản **Google**
+3. Thanh toán bằng:
    1. Chuyển khoản qua ngân hàng truyền thống
    2. Thanh toán qua app momo
-3. Cho phép tải sách Ebook nếu mua sách online
-4. Cũng có thể lựa chọn giao sách tại nhà
-5. Có gắn thẻ `Google analytics`, `Google search console`, `Google tag manager` trong `Header` của trang web đồ án. Kiểm tra bằng plugin `Google Tag Assistant Legacy` của `Google Chrome`
+4. Áp dụng mã giảm giá trong thanh toán
+5. Cho phép tải sách Ebook nếu mua sách online
+6. Cũng có thể lựa chọn giao sách tại nhà
+7. Có gắn thẻ `Google analytics`, `Google search console`, `Google tag manager` trong `Header` của trang web đồ án. Kiểm tra bằng plugin `Google Tag Assistant Legacy` của `Google Chrome`
 
 
 ## 3. Hình ảnh demo trang web:
