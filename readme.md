@@ -2,7 +2,7 @@
 
 ## 1. Trong Git này gồm: 
 1. Toàn bộ thư mục của htdocs // chứa code của trang WordPress
-2. 1 File rar là bản rút gọn cho việc upload host.
+2. 1 File rar `ThuongMaiDienTu_WP` là bản rút gọn cho việc upload host. Bạn lấy file này up lên host luôn cho tiện, mình làm sẵn rồi đó ʕ ᵔᴥᵔ ʔ
 3. File Database MySQL
 4. Demo page: [Lovely pages - Trang sách yêu thương](http://lovelypages.lovestoblog.com/) 
 `Link này demo free nên nó có thể die bất cứ lúc nào`
@@ -46,6 +46,8 @@
 ![Trang thanh toán](./ReadMepics/ThanhToan.JPG)
 
 
+----------
 
+<h5 style="text-align:center;">ʕ ᵔᴥᵔ ʔ CHÚC CÁC BẠN VUI VẺ ʕ ᵔᴥᵔ ʔ</h5>
 
-
+----------
