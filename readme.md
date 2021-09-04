@@ -7,9 +7,19 @@
 4. Demo page: [Lovely pages - Trang sách yêu thương](http://lovelypages.lovestoblog.com/) 
 `Link này demo free nên nó có thể die bất cứ lúc nào`
 5. Cách upload host: [Youtube tutorial in VietNamese](https://youtu.be/9tG3CUERl_Y)
+6. Có 2 file ngoài ko liên quan là 1 file `readme.md` với folder `ReadMepics` là để làm cái note giới thiệu trên `Github` này. Bạn có thể xoá nó khi tải về.
+7. Tài khoản `wp-admin` thì bạn [inbox mình]([https://link](https://www.facebook.com/hitoshi.itamino/)) để biết nha ʕ ᵔᴥᵔ ʔ
+
+## 2. Chức năng chính của đồ án:
+1. Đăng nhập bằng tài khoản **Google**
+2. Thanh toán bằng:
+   1. Chuyển khoản qua ngân hàng truyền thống
+   2. Thanh toán qua app momo
+3. Cho phép tải sách Ebook nếu mua sách online
+4. Cũng có thể lựa chọn giao sách tại nhà
 
 
-## 2. Hình ảnh demo trang web:
+## 3. Hình ảnh demo trang web:
 1. Trang chủ
 
 ![Trang chủ](./ReadMepics/TrangChu.JPG)
@@ -35,13 +45,7 @@
 
 ![Trang thanh toán](./ReadMepics/ThanhToan.JPG)
 
-## 3. Chức năng chính của đồ án:
-1. Đăng nhập bằng tài khoản **Google**
-2. Thanh toán bằng:
-   1. Chuyển khoản qua ngân hàng truyền thống
-   2. Thanh toán qua app momo
-3. Cho phép tải sách Ebook nếu mua sách online
-4. Cũng có thể lựa chọn giao sách tại nhà
+
 
 
 
