@@ -15,13 +15,25 @@
 ![Trang chủ](./ReadMepics/TrangChu.JPG)
 2. Trang sản phẩm
 
-![Trang sản phẩm](ReadMepics\SanPham.JPG)
+![Trang sản phẩm](./ReadMepics/SanPham.JPG)
 3. Trang chi tiết sản phẩm
+
+![Trang chi tiết sản phẩm](./ReadMepics/ChiTietSanPham.JPG)
 4. Trang giới thiệu
+
+![Trang giới thiệu](./ReadMepics/GioiThieu.JPG)
 5. Trang liên hệ
+
+![Trang liên hệ](./ReadMepics/LienHe.JPG)
 6. Trang tài khoản
+
+![Trang tài khoản](./ReadMepics/taiKhoan.JPG)
 7. Trang giỏ hàng của tôi (My cart)
+
+![Giỏ hàng của tôi ơi](./ReadMepics/MyCart.JPG)
 8. Trang thanh toán
+
+![Trang thanh toán](./ReadMepics/ThanhToan.JPG)
 
 ## 3. Chức năng chính của đồ án:
 1. Đăng nhập bằng tài khoản **Google**
